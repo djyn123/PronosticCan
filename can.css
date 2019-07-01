@@ -1,0 +1,166 @@
+body
+{
+    background: -webkit-linear-gradient(SkyBlue,DarkBlue);
+   
+}
+h1
+{
+    display: block;
+    margin:0;
+    font-size: 72px;
+    background: -webkit-linear-gradient(#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#content
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    
+}
+#execute
+{
+    display: block;
+    position: fixed;
+    top: 0px;
+    left: 0;
+}
+
+#poule
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+table
+{
+    display: inline-block;
+    width: 100px;
+    height: 150px;
+    border:0px solid white;
+    padding-top: 10px;
+    border-spacing:1px;
+    table-layout: auto;
+    margin-right: 3px;
+
+    
+
+}
+tbody
+{
+    width: 100px;
+}
+tr
+{
+    margin:0;
+    border:0;
+}
+td
+{
+    border: 1px solid black;
+    height: 24px;
+    width: 100px;
+    font-size: 15px;
+    padding-left:1px;
+}
+.titre
+{
+    background-color: orange;
+}
+
+#eliminatoire
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /*border:1px solid black;*/
+    height: 600px;
+    width: 870px;
+    margin-top:10px;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+
+
+#huit1, #quart1, #demiF1, #huit2, #quart2, #demiF2
+{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: 100px ;
+    border: 1px solid none;
+    margin-right: 10px;
+}
+#quart1, #quart2
+{
+    height: 400px;
+    width: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+#demiF1, #demiF2
+{
+    /*background-color: orange;*/
+    height:300px;
+    width: 100px;
+    margin-top:150px;
+    margin-bottom:150px;
+}
+#finale
+{
+    display: flex;
+    flex-direction: row;
+    height: 200px;
+    width: 300px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-right: 10px;
+}
+#finale > div
+{
+    width: 200px;
+    height: 100px;
+    margin-left:5px ;
+    margin-right:5px ;
+    border: 1px solid black;
+    background-size: contain;
+}
+
+#finale >#gagnant
+{
+    height: 100px;
+    width: 200px;
+    margin-top:100px; 
+    margin-bottom:100px ;
+    
+    border: 1px solid black;   
+}
+#huit1 > div, #huit2 > div
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 87.5px;
+    background-size: contain;
+}
+#quart1 > div, #quart2 > div
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 125px;
+    background-size: contain;
+}
+#demiF1 > div, #demiF2 > div
+{
+    border: 1px solid black;
+    width: 100px;
+    height: 200px;
+    background-size: contain;
+}
+
+
